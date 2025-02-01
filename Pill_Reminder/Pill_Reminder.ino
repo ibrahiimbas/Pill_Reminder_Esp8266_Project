@@ -219,19 +219,19 @@ void activateBuzzer()
 // Reconnect MQTT
 void reconnect() 
 {
-    Serial.println("Adafruit IO'ya bağlanılıyor...");
+    Serial.println("Connecting to AdafruitIO...");
     while (mqtt.connect() != 0) 
     {
         Serial.print(".");
         delay(5000);
     }
-    Serial.println("Adafruit IO'ya bağlantı sağlandı!");
+    Serial.println("Connected AdafruitIO!");
 }
 
 //Servo
 void activateServo()
 {
-  Serial.println("Servo calisti...");
+  Serial.println("Servo motor activated...");
    s1.write(0);  
    delay(100);  
    s1.write(90);  
