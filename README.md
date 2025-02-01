@@ -63,4 +63,4 @@ int minutes = 1; // Set countdown minute
 <br/>
 
 # Ending <br/>
-After all this settings. You can upload the codes to your ESP and start the project.
+After all this settings. You can upload the codes to your ESP and start the project. Firstly your esp connects the wifi. Then system connects the AdafruitIO. After that countdown starts and system works. While system works, esp sends the informations to AdafruitIO dashboard. You can see the live information in your AdafruitIO dashboard.
