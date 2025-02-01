@@ -35,17 +35,27 @@ Servo Yellow --> D3<br/><br/>
 
 # Wifi Settings:<br/>
 Activate Hotspot wifi then change the wifi name (ssid) and wifi password password (password) in the codes.<br/>
+```
+#define ssid "Internet_Name" //Your mobile hotspot name
+#define password "Internet_Password" //Your mobile hotspot password
+```
 !!You must use 2.4GHz Band otherwise Esp8266 doesn't connect the wifi!! <br/><br/>
 
 # AdafruitIO Settings: <br/>
 You should create an AdafruitIO account, copy your username and activate key. Then paste them in code.<br/>
-#define AIO_USERNAME  "Username" //AdafruitIO username <br/>
-#define AIO_KEY       "AdafruitIOKey" //AdafruitIO Key <br/> 
+```
+#define AIO_USERNAME  "Username" //AdafruitIO username
+#define AIO_KEY       "AdafruitIOKey" //AdafruitIO Key
+```
 You should create a feed in AdafruitIO. Paste the feed key in code. <br/>
-Adafruit_MQTT_Publish remainingTFeed = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME"/feeds/YourFeedName");<br/>
+```
+Adafruit_MQTT_Publish remainingTFeed = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME"/feeds/YourFeedName");
+```
 Then create a dashboard in AdafruitIO and connect the dashboard to your feed. Set the dashboard as you wish. <br/>
 ![Image](https://github.com/user-attachments/assets/418bfbee-cdaa-4a26-9f5d-3356aa525933) <br/><br/>
 
 # Setting the countdown timer: <br/>
 You can change the countownd timer in code below.<br/>
+```
 int minutes = 1; // Set countdown minute
+```
