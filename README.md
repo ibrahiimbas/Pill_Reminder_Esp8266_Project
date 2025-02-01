@@ -54,7 +54,7 @@ Activate Hotspot Wifi then change the Wifi name (ssid) and Wifi password passwor
 !!You must use 2.4GHz Band to Hotspot Wifi. Otherwise Esp8266 doesn't connect the Wifi!! <br/><br/>
 
 # Adafruit IO Settings: <br/>
-You should create an AdafruitIO account, copy your username and activate key. Then paste them in code.<br/>
+You should create an Adafruit IO account, copy your username and activate key. Then paste them in code.<br/>
 ```
 #define AIO_USERNAME  "Username" //AdafruitIO username
 #define AIO_KEY       "AdafruitIOKey" //AdafruitIO Key
@@ -63,7 +63,7 @@ You should create a feed in Adafruit IO. Paste the feed key in code. <br/>
 ```
 Adafruit_MQTT_Publish remainingTFeed = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME"/feeds/YourFeedName");
 ```
-Then create a dashboard in AdafruitIO and connect the dashboard to your feed. Set the dashboard as you wish. <br/>
+Then create a dashboard in Adafruit IO and connect the dashboard to your feed. Set the dashboard as you wish. <br/>
 ![Image](https://github.com/user-attachments/assets/418bfbee-cdaa-4a26-9f5d-3356aa525933) <br/><br/>
 
 # Setting the Countdown Timer: <br/>
