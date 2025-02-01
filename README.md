@@ -46,20 +46,20 @@ Servo Yellow --> D3<br/><br/>
 https://github.com/Makuna/Rtc <br/>
 <br/>
 # Wifi Settings:<br/>
-Activate Hotspot wifi then change the wifi name (ssid) and wifi password password (password) in the codes.<br/>
+Activate Hotspot Wifi then change the Wifi name (ssid) and Wifi password password (password) in the codes.<br/>
 ```
 #define ssid "Internet_Name" //Your mobile hotspot name
 #define password "Internet_Password" //Your mobile hotspot password
 ```
-!!You must use 2.4GHz Band otherwise Esp8266 doesn't connect the wifi!! <br/><br/>
+!!You must use 2.4GHz Band to Hotspot Wifi. Otherwise Esp8266 doesn't connect the Wifi!! <br/><br/>
 
-# AdafruitIO Settings: <br/>
+# Adafruit IO Settings: <br/>
 You should create an AdafruitIO account, copy your username and activate key. Then paste them in code.<br/>
 ```
 #define AIO_USERNAME  "Username" //AdafruitIO username
 #define AIO_KEY       "AdafruitIOKey" //AdafruitIO Key
 ```
-You should create a feed in AdafruitIO. Paste the feed key in code. <br/>
+You should create a feed in Adafruit IO. Paste the feed key in code. <br/>
 ```
 Adafruit_MQTT_Publish remainingTFeed = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME"/feeds/YourFeedName");
 ```
@@ -74,4 +74,4 @@ int minutes = 1; // Set countdown minute
 <br/>
 
 # Uploading and Running the Project <br/>
-After all this settings. You can upload the codes to your ESP and start the project. Firstly, your ESP connects to your hotspot Wi-Fi. Then the system connects to AdafruitIO with your username and key in the codes. After that, the countdown starts, and the system works. While the system works, it especially sends the information to the AdafruitIO dashboard. You can see the live information in your AdafruitIO dashboard. You can change the dashboard as you like.
+After all this settings. You can upload the codes to your ESP and start the project. Firstly, your ESP connects to your hotspot Wi-Fi. Then the system connects to Adafruit IO with your username and key in the codes. After that, the countdown starts, and the system works. While the system works, it especially sends the information to the AdafruitIO dashboard. You can see the live information in your Adafruit IO dashboard. You can change the dashboard as you like.
