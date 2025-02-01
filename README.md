@@ -19,7 +19,7 @@ Basic Esp8266 project for my embedded systems lecture. <br/>
 # Overview of Project: <br/>
 ![Image](https://github.com/user-attachments/assets/95d13623-51a3-49ea-b75d-bcead237fec8) <br/><br/>
 
-# Connections between components: <br/>
+# Connections Between Components: <br/>
 RTC Module:<br/>
 DS1302 CLK/SCLK --> D5<br/>
 DS1302 DAT/IO --> D4<br/>
