@@ -142,7 +142,7 @@ void loop ()
         Serial.println("RTC lost confidence in the DateTime!");
     }
 
-    // Kalan sürenin hesaplanması ve Adafruit IO'ya gönderilmesi
+    // Calculate and send the remaining time to AdafruitIO
     uint32_t elapsedSeconds = now.TotalSeconds() - lastTriggerTime.TotalSeconds();
     uint32_t remainingSeconds = (minutes * 60) - (elapsedSeconds % (minutes * 60)); // Remaining seconds
 
