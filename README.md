@@ -16,3 +16,4 @@ Basic Esp8266 project for my embedded systems lecture. <br/>
 -Jumper cables and breadboard <br/>
 
 # Overview of project: <br/>
+![Image](https://github.com/user-attachments/assets/95d13623-51a3-49ea-b75d-bcead237fec8) <br/>
