@@ -44,3 +44,8 @@ You should create an AdafruitIO account, copy your username and activate key. Th
 You should create a feed in AdafruitIO. Paste the feed key in code. <br/>
 Adafruit_MQTT_Publish remainingTFeed = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME"/feeds/YourFeedName");<br/>
 Then create a dashboard in AdafruitIO and connect the dashboard to your feed. Set the dashboard as you wish. <br/>
+![Image](https://github.com/user-attachments/assets/418bfbee-cdaa-4a26-9f5d-3356aa525933) <br/><br/>
+
+# Setting the countdown timer: <br/>
+You can change the countownd timer in code below.<br/>
+int minutes = 1; // Set countdown minute
