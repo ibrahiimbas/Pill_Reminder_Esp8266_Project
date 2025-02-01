@@ -14,6 +14,7 @@ Basic Esp8266 project for my embedded systems lecture. <br/>
 -Buzzer <br/>
 ![Image](https://github.com/user-attachments/assets/01b82aac-ad9e-4146-bb6f-f77eda9de40c) <br/><br/>
 -Jumper cables and breadboard <br/>
+-Small tube for keep the pills in it <br/>
 
 # Overview of project: <br/>
 ![Image](https://github.com/user-attachments/assets/95d13623-51a3-49ea-b75d-bcead237fec8) <br/><br/>
@@ -59,3 +60,7 @@ You can change the countownd timer in code below.<br/>
 ```
 int minutes = 1; // Set countdown minute
 ```
+<br/>
+
+# Ending <br/>
+After all this settings. You can upload the codes to your ESP and start the project.
