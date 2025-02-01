@@ -4,7 +4,7 @@ Basic Esp8266 project for my embedded systems lecture. <br/>
 # Project Description: <br/>
   In this project, a system has been developed to regularly remind users of their pill intake times. The system tracks pill schedules using a real-time clock and, when the predetermined time is reached, it alerts the user through a buzzer and activates a servo motor to dispense a single pill from the tube to the patient. Once the process is completed, the system resets the timer and starts counting again. <br/> <br/>
 
-# Components that are used in this project: <br/>
+# Components That Are Used in This Project: <br/>
 -Esp8266<br/>
 ![Image](https://github.com/user-attachments/assets/655c6882-adad-4390-ba99-2e01efbfc054) <br/><br/>
 -DS1302 RTC Module <br/>
@@ -16,7 +16,7 @@ Basic Esp8266 project for my embedded systems lecture. <br/>
 -Jumper cables and breadboard <br/>
 -Small tube for keep the pills in it <br/>
 
-# Overview of project: <br/>
+# Overview of Project: <br/>
 ![Image](https://github.com/user-attachments/assets/95d13623-51a3-49ea-b75d-bcead237fec8) <br/><br/>
 
 # Connections between components: <br/>
@@ -55,12 +55,12 @@ Adafruit_MQTT_Publish remainingTFeed = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME
 Then create a dashboard in AdafruitIO and connect the dashboard to your feed. Set the dashboard as you wish. <br/>
 ![Image](https://github.com/user-attachments/assets/418bfbee-cdaa-4a26-9f5d-3356aa525933) <br/><br/>
 
-# Setting the countdown timer: <br/>
+# Setting the Countdown Timer: <br/>
 You can change the countownd timer in code below.<br/>
 ```
 int minutes = 1; // Set countdown minute
 ```
 <br/>
 
-# Ending <br/>
+# Uploading and Running the Project <br/>
 After all this settings. You can upload the codes to your ESP and start the project. Firstly, your ESP connects to your hotspot Wi-Fi. Then the system connects to AdafruitIO with your username and key in the codes. After that, the countdown starts, and the system works. While the system works, it especially sends the information to the AdafruitIO dashboard. You can see the live information in your AdafruitIO dashboard. You can change the dashboard as you like.
