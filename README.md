@@ -1,4 +1,4 @@
-# Pill_Reminder_Esp8266_Project
+# Pill Reminder Esp8266 Project
 Basic Esp8266 project for my embedded systems lecture. <br/>
 
 # Project Description: <br/>
