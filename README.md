@@ -6,8 +6,11 @@ Basic Esp8266 project for my embedded systems lecture. <br/>
 
 # Components that are used in this project: <br/>
 -Esp8266<br/>
+![Image](https://github.com/user-attachments/assets/655c6882-adad-4390-ba99-2e01efbfc054) <br/>
 -DS1302 RTC Module <br/>
+![Image](https://github.com/user-attachments/assets/ff0bf392-ad63-4d66-b65e-61ba0631912f) <br/>
 -SG90 9G Servo Motor <br/>
+![Image](https://github.com/user-attachments/assets/2ce513bc-fcf5-4886-85a8-fb1f39b2cc1d) <br/>
 -Buzzer <br/>
+![Image](https://github.com/user-attachments/assets/01b82aac-ad9e-4146-bb6f-f77eda9de40c) <br/>
 -Jumper cables and breadboard <br/>
-
