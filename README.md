@@ -14,3 +14,5 @@ Basic Esp8266 project for my embedded systems lecture. <br/>
 -Buzzer <br/>
 ![Image](https://github.com/user-attachments/assets/01b82aac-ad9e-4146-bb6f-f77eda9de40c) <br/>
 -Jumper cables and breadboard <br/>
+
+# Overview of project: <br/>
