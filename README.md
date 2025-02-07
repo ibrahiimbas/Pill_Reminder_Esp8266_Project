@@ -67,7 +67,7 @@ Then create a dashboard in Adafruit IO and connect the dashboard to your feed. S
 ![Image](https://github.com/user-attachments/assets/418bfbee-cdaa-4a26-9f5d-3356aa525933) <br/><br/>
 
 # Setting the Countdown Timer: <br/>
-You can change the countown value in code below.<br/>
+You can change the countdown value in code below.<br/>
 ```
 int minutes = 1; // Set countdown minute
 ```
